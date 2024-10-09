@@ -1,0 +1,75 @@
+.buttons{
+    max-width: 500px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 auto;
+    place-items: center;
+}
+
+h1{
+    font-family: 'Paperlogy-8ExtraBold';
+    text-align: center;
+}
+
+
+
+.quizButton{
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    font-size: 2em;
+    font-family: 'GmarketSansMedium';
+    font-weight: 500;
+}
+
+.titleBox{
+    display: flex;
+    place-content: center;
+}
+
+.next{
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin: 10px;
+    font-family: 'GmarketSansMedium';
+    font-weight: 500;
+    font-size: 1.8em;
+    margin-left: 1em;
+}
+
+
+
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
