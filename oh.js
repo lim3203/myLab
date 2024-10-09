@@ -19,6 +19,7 @@ nextButtton.addEventListener("click", () => {next()});
 function next(){
     if(pageCount == 2 & pageStatus != 0){
         alert("끝");
+        pageCount = 0;
         pageRemove();
     } else if (pageCount > 0 & pageStatus != 0){
         pageRemove();
