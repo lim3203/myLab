@@ -9,19 +9,61 @@
     place-items: center;
 }
 
+body{
+    background-color: #ebebeb;
+}
+
 h1{
     font-family: 'Paperlogy-8ExtraBold';
     text-align: center;
 }
 
 
-
 .quizButton{
     border: none;
     border-radius: 25px;
+background: #ebebeb;
+box-shadow:  16px 16px 31px #949494,
+             -16px -16px 31px #ffffff;
     width: 150px;
     height: 150px;
     margin: 5px;
+    margin-top: 30px;
+    font-size: 2em;
+    font-family: 'GmarketSansMedium';
+    font-weight: 500;
+    transition:cubic-bezier(1, 0, 0, 1);
+    transition-duration: 0.2s;
+
+}
+
+.quizButton:hover{
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #fbfbfb, #d4d4d4);
+    box-shadow:  16px 16px 31px #949494,
+                 -16px -16px 31px #ffffff;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    margin-top: 30px;
+    font-size: 2em;
+    font-family: 'GmarketSansMedium';
+    font-weight: 500; 
+    transition: ease-in-out;
+    transition-duration: 0.2s;  
+}
+
+.quizButton:active{
+    border: none;
+    border-radius: 25px;
+background: linear-gradient(145deg, #d4d4d4, #fbfbfb);
+box-shadow:  16px 16px 31px #949494,
+             -16px -16px 31px #ffffff;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    margin-top: 30px;
     font-size: 2em;
     font-family: 'GmarketSansMedium';
     font-weight: 500;
@@ -42,6 +84,7 @@ h1{
     font-weight: 500;
     font-size: 1.8em;
     margin-left: 1em;
+    transition: 0.3s ease;
 }
 
 
